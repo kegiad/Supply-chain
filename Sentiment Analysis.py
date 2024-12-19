@@ -14,6 +14,11 @@ def analyze_sentiment(text):
     else:
         return "Neutral"
 
+def analyze_sentiment_value(text):
+    blob = TextBlob(text)
+    sentimentValue = blob.sentiment.polarity
+    return sentimentValue
+
 cursor.execute("SELECT * FROM news_articles")
 articles = cursor.fetchall()
 
@@ -21,10 +26,11 @@ for article in articles:
     title = article[1]
     content = article[2]
     sentiment = analyze_sentiment(title)
-    print(f"Title : {title}")
-    print(f"Sentiment : {sentiment}")
+    senValue = analyze_sentiment_value(title)
+    #print(f"Title : {title}")
+    #print(f"Sentiment : {sentiment}")
 
-cursor.execute("ALTER TABLE news_articles ADD COLUMN Sentiment TEXT")
+#cursor.execute("ALTER TABLE news_articles ADD COLUMN SentimentValue FLOAT")
 print("SUCCESSFULLY ADDED DATA")
 cursor.execute("SELECT * FROM news_articles")
 articles = cursor.fetchall()
@@ -33,7 +39,8 @@ for article in articles:
     article_id = article[0]
     title = article[1]
     sentiment = analyze_sentiment(title)
-    cursor.execute("UPDATE news_articles SET Sentiment = ? WHERE id = ?", (sentiment,article_id))
+    senValue = analyze_sentiment_value(title)
+    cursor.execute("UPDATE news_articles SET SentimentValue = ? WHERE id = ?", (senValue,article_id))
 
 conn.commit()
 
@@ -41,9 +48,8 @@ cursor.execute("SELECT * FROM news_articles")
 articles = cursor.fetchall()
 
 
-print("ID | Title | Sentiment")
+print("ID | Title | Sentiment | Sentiment Value")
 print("-------------------------")
 for article in articles:
-    print(f"{article[0]} | {article[1]} | {article[3]}")
-cursor.execute("SELECT title, COUNT(*) FROM news_articles GROUP BY title HAVING COUNT(*) > 1")
+    print(f"{article[0]} | {article[1]} | {article[3]} | {article[4]}")
 conn.close()

@@ -10,6 +10,6 @@ articles = cursor.fetchall()
 print("ID | Title | Sentiment")
 print("-------------------------")
 for article in articles:
-    print(f"{article[0]} | {article[1]} | {article[3]}")
+   print(f"{article[0]} | {article[1]} | {article[3]}")
 
 conn.close()
