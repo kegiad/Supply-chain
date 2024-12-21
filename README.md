@@ -1,7 +1,7 @@
 # Supply-chain
 
 ## Description
-This project uses large language models (LLMs) to optimize supply chain management by predicting inventory needs and prioritizing critical items for restocking based on external events.
+This project uses large language models (LLMs) to optimize supply chain management by predicting inventory needs and prioritizing critical items for restocking based on external events such as natural disasters or trade disruptions.
 
 ## Features
 - Predicts supply chain bottlenecks using AI.
@@ -13,10 +13,16 @@ This project uses large language models (LLMs) to optimize supply chain manageme
 - Programming skills: Knowledge of Python and SQL.
 - Basic understanding of how APIs work.
 
-## Installation
-- Ollama.
+## Installation and Setup
+- Install textblob for sentiment analysis, pip install textblob.
+- Install requests library, to handle API requests, pip install requests.
+- The APIS used here are for gathering news and supplies information.
+- Download ans install Ollama for local model management.
+- Download the model locally via the CLI, ollama run llama3.2:1b .
+- System Requirements : 8 GB VRAM and 2 GB free space on disk recommended.
 - The LLM used in this project is LLaMA 3.2 with 1B parameters.
-- Download the model locally using Ollama if system requirements are satisfied.
+- Install ollama library in your IDE, pip install ollama.
+- Import the library and use the model llama3.2:1b .
 
 ## LLM used
 - This project uses LLaMA 3.2 with 1B parameters.
