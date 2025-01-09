@@ -1,0 +1,1122 @@
+[
+    {
+        "input": "In 2001, the district Thiruvananthapuram had an area of 2264.23 hectares dedicated to pepper cultivation, producing 959.8 tonnes without any disruptions.\n",
+        "output": "The expected production is 959.80 tonnes."
+    },
+    {
+        "input": "In 2001, the district Kollam had an area of 3480.09 hectares dedicated to pepper cultivation, producing 1142.26 tonnes without any disruptions.\n",
+        "output": "The expected production is 1142.26 tonnes."
+    },
+    {
+        "input": "In 2001, the district Pathanamthitta had an area of 1746.6 hectares dedicated to pepper cultivation, producing 612.9 tonnes without any disruptions.\n",
+        "output": "The expected production is 612.90 tonnes."
+    },
+    {
+        "input": "In 2001, the district Alappuzha had an area of 622.08 hectares dedicated to pepper cultivation, producing 135.32 tonnes without any disruptions.\n",
+        "output": "The expected production is 135.32 tonnes."
+    },
+    {
+        "input": "In 2001, the district Kottayam had an area of 3104.41 hectares dedicated to pepper cultivation, producing 1110.44 tonnes without any disruptions.\n",
+        "output": "The expected production is 1110.44 tonnes."
+    },
+    {
+        "input": "In 2001, the district Idukki had an area of 41225.3 hectares dedicated to pepper cultivation, producing 24617.96 tonnes without any disruptions.\n",
+        "output": "The expected production is 24617.96 tonnes."
+    },
+    {
+        "input": "In 2001, the district Ernakulam had an area of 1784.49 hectares dedicated to pepper cultivation, producing 503.71 tonnes without any disruptions.\n",
+        "output": "The expected production is 503.71 tonnes."
+    },
+    {
+        "input": "In 2001, the district Thrissur had an area of 1855.55 hectares dedicated to pepper cultivation, producing 496.54 tonnes without any disruptions.\n",
+        "output": "The expected production is 496.54 tonnes."
+    },
+    {
+        "input": "In 2001, the district Palakkad had an area of 2535.38 hectares dedicated to pepper cultivation, producing 963.65 tonnes without any disruptions.\n",
+        "output": "The expected production is 963.65 tonnes."
+    },
+    {
+        "input": "In 2001, the district Malappuram had an area of 2999.13 hectares dedicated to pepper cultivation, producing 469.57 tonnes without any disruptions.\n",
+        "output": "The expected production is 469.57 tonnes."
+    },
+    {
+        "input": "In 2001, the district Kozhikode had an area of 3307.45 hectares dedicated to pepper cultivation, producing 889.22 tonnes without any disruptions.\n",
+        "output": "The expected production is 889.22 tonnes."
+    },
+    {
+        "input": "In 2001, the district Wayanad had an area of 13085.29 hectares dedicated to pepper cultivation, producing 6902.81 tonnes without any disruptions.\n",
+        "output": "The expected production is 6902.81 tonnes."
+    },
+    {
+        "input": "In 2001, the district Kannur had an area of 4410.92 hectares dedicated to pepper cultivation, producing 1604.63 tonnes without any disruptions.\n",
+        "output": "The expected production is 1604.63 tonnes."
+    },
+    {
+        "input": "In 2001, the district Kasaragode had an area of 2667.98 hectares dedicated to pepper cultivation, producing 1154.8 tonnes without any disruptions.\n",
+        "output": "The expected production is 1154.80 tonnes."
+    },
+    {
+        "input": "In 2002, the district Thiruvananthapuram had an area of 2220.04 hectares dedicated to pepper cultivation, producing 941.07 tonnes without any disruptions.\n",
+        "output": "The expected production is 941.07 tonnes."
+    },
+    {
+        "input": "In 2002, the district Kollam had an area of 3224.57 hectares dedicated to pepper cultivation, producing 1058.39 tonnes without any disruptions.\n",
+        "output": "The expected production is 1058.39 tonnes."
+    },
+    {
+        "input": "In 2002, the district Pathanamthitta had an area of 1673.58 hectares dedicated to pepper cultivation, producing 587.27 tonnes without any disruptions.\n",
+        "output": "The expected production is 587.27 tonnes."
+    },
+    {
+        "input": "In 2002, the district Alappuzha had an area of 617.52 hectares dedicated to pepper cultivation, producing 134.33 tonnes without any disruptions.\n",
+        "output": "The expected production is 134.33 tonnes."
+    },
+    {
+        "input": "In 2002, the district Kottayam had an area of 3193.12 hectares dedicated to pepper cultivation, producing 1142.17 tonnes without any disruptions.\n",
+        "output": "The expected production is 1142.17 tonnes."
+    },
+    {
+        "input": "In 2002, the district Idukki had an area of 41802.67 hectares dedicated to pepper cultivation, producing 24962.74 tonnes without any disruptions.\n",
+        "output": "The expected production is 24962.74 tonnes."
+    },
+    {
+        "input": "In 2002, the district Ernakulam had an area of 1887.88 hectares dedicated to pepper cultivation, producing 532.89 tonnes without any disruptions.\n",
+        "output": "The expected production is 532.89 tonnes."
+    },
+    {
+        "input": "In 2002, the district Thrissur had an area of 1725.47 hectares dedicated to pepper cultivation, producing 461.73 tonnes without any disruptions.\n",
+        "output": "The expected production is 461.73 tonnes."
+    },
+    {
+        "input": "In 2002, the district Palakkad had an area of 2457.83 hectares dedicated to pepper cultivation, producing 934.17 tonnes without any disruptions.\n",
+        "output": "The expected production is 934.17 tonnes."
+    },
+    {
+        "input": "In 2002, the district Malappuram had an area of 2898.74 hectares dedicated to pepper cultivation, producing 453.85 tonnes without any disruptions.\n",
+        "output": "The expected production is 453.85 tonnes."
+    },
+    {
+        "input": "In 2002, the district Kozhikode had an area of 3458.74 hectares dedicated to pepper cultivation, producing 929.9 tonnes without any disruptions.\n",
+        "output": "The expected production is 929.90 tonnes."
+    },
+    {
+        "input": "In 2002, the district Wayanad had an area of 12854.41 hectares dedicated to pepper cultivation, producing 6781.01 tonnes without any disruptions.\n",
+        "output": "The expected production is 6781.01 tonnes."
+    },
+    {
+        "input": "In 2002, the district Kannur had an area of 4140.79 hectares dedicated to pepper cultivation, producing 1506.36 tonnes without any disruptions.\n",
+        "output": "The expected production is 1506.36 tonnes."
+    },
+    {
+        "input": "In 2002, the district Kasaragode had an area of 2750.91 hectares dedicated to pepper cultivation, producing 1190.69 tonnes without any disruptions.\n",
+        "output": "The expected production is 1190.69 tonnes."
+    },
+    {
+        "input": "In 2003, the district Thiruvananthapuram had an area of 2314.19 hectares dedicated to pepper cultivation, producing 980.98 tonnes without any disruptions.\n",
+        "output": "The expected production is 980.98 tonnes."
+    },
+    {
+        "input": "In 2003, the district Kollam had an area of 3178.97 hectares dedicated to pepper cultivation, producing 1043.43 tonnes without any disruptions.\n",
+        "output": "The expected production is 1043.43 tonnes."
+    },
+    {
+        "input": "In 2003, the district Pathanamthitta had an area of 1725.36 hectares dedicated to pepper cultivation, producing 605.44 tonnes without any disruptions.\n",
+        "output": "The expected production is 605.44 tonnes."
+    },
+    {
+        "input": "In 2003, the district Alappuzha had an area of 595.7 hectares dedicated to pepper cultivation, producing 129.58 tonnes without any disruptions.\n",
+        "output": "The expected production is 129.58 tonnes."
+    },
+    {
+        "input": "In 2003, the district Kottayam had an area of 3075.16 hectares dedicated to pepper cultivation, producing 1099.98 tonnes without any disruptions.\n",
+        "output": "The expected production is 1099.98 tonnes."
+    },
+    {
+        "input": "In 2003, the district Idukki had an area of 44610.47 hectares dedicated to pepper cultivation, producing 26639.43 tonnes without any disruptions.\n",
+        "output": "The expected production is 26639.43 tonnes."
+    },
+    {
+        "input": "In 2003, the district Ernakulam had an area of 1953.93 hectares dedicated to pepper cultivation, producing 551.54 tonnes without any disruptions.\n",
+        "output": "The expected production is 551.54 tonnes."
+    },
+    {
+        "input": "In 2003, the district Thrissur had an area of 1845.2 hectares dedicated to pepper cultivation, producing 493.77 tonnes without any disruptions.\n",
+        "output": "The expected production is 493.77 tonnes."
+    },
+    {
+        "input": "In 2003, the district Palakkad had an area of 2460.96 hectares dedicated to pepper cultivation, producing 935.36 tonnes without any disruptions.\n",
+        "output": "The expected production is 935.36 tonnes."
+    },
+    {
+        "input": "In 2003, the district Malappuram had an area of 2819.8 hectares dedicated to pepper cultivation, producing 441.49 tonnes without any disruptions.\n",
+        "output": "The expected production is 441.49 tonnes."
+    },
+    {
+        "input": "In 2003, the district Kozhikode had an area of 3538.0 hectares dedicated to pepper cultivation, producing 951.21 tonnes without any disruptions.\n",
+        "output": "The expected production is 951.21 tonnes."
+    },
+    {
+        "input": "In 2003, the district Wayanad had an area of 12423.2 hectares dedicated to pepper cultivation, producing 6553.54 tonnes without any disruptions.\n",
+        "output": "The expected production is 6553.54 tonnes."
+    },
+    {
+        "input": "In 2003, the district Kannur had an area of 4107.65 hectares dedicated to pepper cultivation, producing 1494.3 tonnes without any disruptions.\n",
+        "output": "The expected production is 1494.30 tonnes."
+    },
+    {
+        "input": "In 2003, the district Kasaragode had an area of 2745.68 hectares dedicated to pepper cultivation, producing 1188.43 tonnes without any disruptions.\n",
+        "output": "The expected production is 1188.43 tonnes."
+    },
+    {
+        "input": "In 2004, the district Thiruvananthapuram had an area of 2186.24 hectares dedicated to pepper cultivation, producing 926.74 tonnes without any disruptions.\n",
+        "output": "The expected production is 926.74 tonnes."
+    },
+    {
+        "input": "In 2004, the district Kollam had an area of 3466.3 hectares dedicated to pepper cultivation, producing 1137.74 tonnes without any disruptions.\n",
+        "output": "The expected production is 1137.74 tonnes."
+    },
+    {
+        "input": "In 2004, the district Pathanamthitta had an area of 1665.82 hectares dedicated to pepper cultivation, producing 584.55 tonnes without any disruptions.\n",
+        "output": "The expected production is 584.55 tonnes."
+    },
+    {
+        "input": "In 2004, the district Alappuzha had an area of 626.01 hectares dedicated to pepper cultivation, producing 136.18 tonnes without any disruptions.\n",
+        "output": "The expected production is 136.18 tonnes."
+    },
+    {
+        "input": "In 2004, the district Kottayam had an area of 3154.47 hectares dedicated to pepper cultivation, producing 1128.35 tonnes without any disruptions.\n",
+        "output": "The expected production is 1128.35 tonnes."
+    },
+    {
+        "input": "In 2004, the district Idukki had an area of 42779.68 hectares dedicated to pepper cultivation, producing 25546.16 tonnes without any disruptions.\n",
+        "output": "The expected production is 25546.16 tonnes."
+    },
+    {
+        "input": "In 2004, the district Ernakulam had an area of 1875.72 hectares dedicated to pepper cultivation, producing 529.46 tonnes without any disruptions.\n",
+        "output": "The expected production is 529.46 tonnes."
+    },
+    {
+        "input": "In 2004, the district Thrissur had an area of 1733.59 hectares dedicated to pepper cultivation, producing 463.9 tonnes without any disruptions.\n",
+        "output": "The expected production is 463.90 tonnes."
+    },
+    {
+        "input": "In 2004, the district Palakkad had an area of 2627.87 hectares dedicated to pepper cultivation, producing 998.8 tonnes without any disruptions.\n",
+        "output": "The expected production is 998.80 tonnes."
+    },
+    {
+        "input": "In 2004, the district Malappuram had an area of 3018.83 hectares dedicated to pepper cultivation, producing 472.66 tonnes without any disruptions.\n",
+        "output": "The expected production is 472.66 tonnes."
+    },
+    {
+        "input": "In 2004, the district Kozhikode had an area of 3626.68 hectares dedicated to pepper cultivation, producing 975.05 tonnes without any disruptions.\n",
+        "output": "The expected production is 975.05 tonnes."
+    },
+    {
+        "input": "In 2004, the district Wayanad had an area of 12991.46 hectares dedicated to pepper cultivation, producing 6853.31 tonnes without any disruptions.\n",
+        "output": "The expected production is 6853.31 tonnes."
+    },
+    {
+        "input": "In 2004, the district Kannur had an area of 4310.79 hectares dedicated to pepper cultivation, producing 1568.2 tonnes without any disruptions.\n",
+        "output": "The expected production is 1568.20 tonnes."
+    },
+    {
+        "input": "In 2004, the district Kasaragode had an area of 2862.89 hectares dedicated to pepper cultivation, producing 1239.16 tonnes without any disruptions.\n",
+        "output": "The expected production is 1239.16 tonnes."
+    },
+    {
+        "input": "In 2005, the district Thiruvananthapuram had an area of 2198.64 hectares dedicated to pepper cultivation, producing 932.0 tonnes without any disruptions.\n",
+        "output": "The expected production is 932.00 tonnes."
+    },
+    {
+        "input": "In 2005, the district Kollam had an area of 3228.76 hectares dedicated to pepper cultivation, producing 1059.77 tonnes without any disruptions.\n",
+        "output": "The expected production is 1059.77 tonnes."
+    },
+    {
+        "input": "In 2005, the district Pathanamthitta had an area of 1629.37 hectares dedicated to pepper cultivation, producing 571.76 tonnes without any disruptions.\n",
+        "output": "The expected production is 571.76 tonnes."
+    },
+    {
+        "input": "In 2005, the district Alappuzha had an area of 605.24 hectares dedicated to pepper cultivation, producing 131.66 tonnes without any disruptions.\n",
+        "output": "The expected production is 131.66 tonnes."
+    },
+    {
+        "input": "In 2005, the district Kottayam had an area of 3179.21 hectares dedicated to pepper cultivation, producing 1137.2 tonnes without any disruptions.\n",
+        "output": "The expected production is 1137.20 tonnes."
+    },
+    {
+        "input": "In 2005, the district Idukki had an area of 41717.8 hectares dedicated to pepper cultivation, producing 24912.06 tonnes without any disruptions.\n",
+        "output": "The expected production is 24912.06 tonnes."
+    },
+    {
+        "input": "In 2005, the district Ernakulam had an area of 1928.38 hectares dedicated to pepper cultivation, producing 544.33 tonnes without any disruptions.\n",
+        "output": "The expected production is 544.33 tonnes."
+    },
+    {
+        "input": "In 2005, the district Thrissur had an area of 1764.36 hectares dedicated to pepper cultivation, producing 472.14 tonnes without any disruptions.\n",
+        "output": "The expected production is 472.14 tonnes."
+    },
+    {
+        "input": "In 2005, the district Palakkad had an area of 2455.01 hectares dedicated to pepper cultivation, producing 933.1 tonnes without any disruptions.\n",
+        "output": "The expected production is 933.10 tonnes."
+    },
+    {
+        "input": "In 2005, the district Malappuram had an area of 2950.54 hectares dedicated to pepper cultivation, producing 461.96 tonnes without any disruptions.\n",
+        "output": "The expected production is 461.96 tonnes."
+    },
+    {
+        "input": "In 2005, the district Kozhikode had an area of 3349.26 hectares dedicated to pepper cultivation, producing 900.46 tonnes without any disruptions.\n",
+        "output": "The expected production is 900.46 tonnes."
+    },
+    {
+        "input": "In 2005, the district Wayanad had an area of 12875.69 hectares dedicated to pepper cultivation, producing 6792.24 tonnes without any disruptions.\n",
+        "output": "The expected production is 6792.24 tonnes."
+    },
+    {
+        "input": "In 2005, the district Kannur had an area of 4087.38 hectares dedicated to pepper cultivation, producing 1486.93 tonnes without any disruptions.\n",
+        "output": "The expected production is 1486.93 tonnes."
+    },
+    {
+        "input": "In 2005, the district Kasaragode had an area of 2880.75 hectares dedicated to pepper cultivation, producing 1246.89 tonnes without any disruptions.\n",
+        "output": "The expected production is 1246.89 tonnes."
+    },
+    {
+        "input": "In 2006, the district Thiruvananthapuram had an area of 2355.43 hectares dedicated to pepper cultivation, producing 998.46 tonnes without any disruptions.\n",
+        "output": "The expected production is 998.46 tonnes."
+    },
+    {
+        "input": "In 2006, the district Kollam had an area of 3229.67 hectares dedicated to pepper cultivation, producing 1060.07 tonnes without any disruptions.\n",
+        "output": "The expected production is 1060.07 tonnes."
+    },
+    {
+        "input": "In 2006, the district Pathanamthitta had an area of 1622.59 hectares dedicated to pepper cultivation, producing 569.38 tonnes without any disruptions.\n",
+        "output": "The expected production is 569.38 tonnes."
+    },
+    {
+        "input": "In 2006, the district Alappuzha had an area of 635.43 hectares dedicated to pepper cultivation, producing 138.23 tonnes without any disruptions.\n",
+        "output": "The expected production is 138.23 tonnes."
+    },
+    {
+        "input": "In 2006, the district Kottayam had an area of 3281.5 hectares dedicated to pepper cultivation, producing 1173.79 tonnes without any disruptions.\n",
+        "output": "The expected production is 1173.79 tonnes."
+    },
+    {
+        "input": "In 2006, the district Idukki had an area of 43671.72 hectares dedicated to pepper cultivation, producing 26078.85 tonnes without any disruptions.\n",
+        "output": "The expected production is 26078.85 tonnes."
+    },
+    {
+        "input": "In 2006, the district Ernakulam had an area of 1917.65 hectares dedicated to pepper cultivation, producing 541.3 tonnes without any disruptions.\n",
+        "output": "The expected production is 541.30 tonnes."
+    },
+    {
+        "input": "In 2006, the district Thrissur had an area of 1713.75 hectares dedicated to pepper cultivation, producing 458.6 tonnes without any disruptions.\n",
+        "output": "The expected production is 458.60 tonnes."
+    },
+    {
+        "input": "In 2006, the district Palakkad had an area of 2474.47 hectares dedicated to pepper cultivation, producing 940.5 tonnes without any disruptions.\n",
+        "output": "The expected production is 940.50 tonnes."
+    },
+    {
+        "input": "In 2006, the district Malappuram had an area of 2825.14 hectares dedicated to pepper cultivation, producing 442.33 tonnes without any disruptions.\n",
+        "output": "The expected production is 442.33 tonnes."
+    },
+    {
+        "input": "In 2006, the district Kozhikode had an area of 3600.14 hectares dedicated to pepper cultivation, producing 967.91 tonnes without any disruptions.\n",
+        "output": "The expected production is 967.91 tonnes."
+    },
+    {
+        "input": "In 2006, the district Wayanad had an area of 12652.1 hectares dedicated to pepper cultivation, producing 6674.29 tonnes without any disruptions.\n",
+        "output": "The expected production is 6674.29 tonnes."
+    },
+    {
+        "input": "In 2006, the district Kannur had an area of 4196.81 hectares dedicated to pepper cultivation, producing 1526.74 tonnes without any disruptions.\n",
+        "output": "The expected production is 1526.74 tonnes."
+    },
+    {
+        "input": "In 2006, the district Kasaragode had an area of 2627.11 hectares dedicated to pepper cultivation, producing 1137.11 tonnes without any disruptions.\n",
+        "output": "The expected production is 1137.11 tonnes."
+    },
+    {
+        "input": "In 2007, the district Thiruvananthapuram had an area of 2249.66 hectares dedicated to pepper cultivation, producing 953.63 tonnes without any disruptions.\n",
+        "output": "The expected production is 953.63 tonnes."
+    },
+    {
+        "input": "In 2007, the district Kollam had an area of 3271.79 hectares dedicated to pepper cultivation, producing 1073.89 tonnes without any disruptions.\n",
+        "output": "The expected production is 1073.89 tonnes."
+    },
+    {
+        "input": "In 2007, the district Pathanamthitta had an area of 1746.19 hectares dedicated to pepper cultivation, producing 612.75 tonnes without any disruptions.\n",
+        "output": "The expected production is 612.75 tonnes."
+    },
+    {
+        "input": "In 2007, the district Alappuzha had an area of 624.47 hectares dedicated to pepper cultivation, producing 135.84 tonnes without any disruptions.\n",
+        "output": "The expected production is 135.84 tonnes."
+    },
+    {
+        "input": "In 2007, the district Kottayam had an area of 3339.49 hectares dedicated to pepper cultivation, producing 1194.53 tonnes without any disruptions.\n",
+        "output": "The expected production is 1194.53 tonnes."
+    },
+    {
+        "input": "In 2007, the district Idukki had an area of 42575.37 hectares dedicated to pepper cultivation, producing 25424.16 tonnes without any disruptions.\n",
+        "output": "The expected production is 25424.16 tonnes."
+    },
+    {
+        "input": "In 2007, the district Ernakulam had an area of 1795.98 hectares dedicated to pepper cultivation, producing 506.95 tonnes without any disruptions.\n",
+        "output": "The expected production is 506.95 tonnes."
+    },
+    {
+        "input": "In 2007, the district Thrissur had an area of 1828.17 hectares dedicated to pepper cultivation, producing 489.21 tonnes without any disruptions.\n",
+        "output": "The expected production is 489.21 tonnes."
+    },
+    {
+        "input": "In 2007, the district Palakkad had an area of 2575.46 hectares dedicated to pepper cultivation, producing 978.88 tonnes without any disruptions.\n",
+        "output": "The expected production is 978.88 tonnes."
+    },
+    {
+        "input": "In 2007, the district Malappuram had an area of 2956.0 hectares dedicated to pepper cultivation, producing 462.82 tonnes without any disruptions.\n",
+        "output": "The expected production is 462.82 tonnes."
+    },
+    {
+        "input": "In 2007, the district Kozhikode had an area of 3568.13 hectares dedicated to pepper cultivation, producing 959.31 tonnes without any disruptions.\n",
+        "output": "The expected production is 959.31 tonnes."
+    },
+    {
+        "input": "In 2007, the district Wayanad had an area of 12490.25 hectares dedicated to pepper cultivation, producing 6588.91 tonnes without any disruptions.\n",
+        "output": "The expected production is 6588.91 tonnes."
+    },
+    {
+        "input": "In 2007, the district Kannur had an area of 4278.7 hectares dedicated to pepper cultivation, producing 1556.53 tonnes without any disruptions.\n",
+        "output": "The expected production is 1556.53 tonnes."
+    },
+    {
+        "input": "In 2007, the district Kasaragode had an area of 2727.1 hectares dedicated to pepper cultivation, producing 1180.39 tonnes without any disruptions.\n",
+        "output": "The expected production is 1180.39 tonnes."
+    },
+    {
+        "input": "In 2008, the district Thiruvananthapuram had an area of 2184.18 hectares dedicated to pepper cultivation, producing 925.87 tonnes without any disruptions.\n",
+        "output": "The expected production is 925.87 tonnes."
+    },
+    {
+        "input": "In 2008, the district Kollam had an area of 3199.43 hectares dedicated to pepper cultivation, producing 1050.14 tonnes without any disruptions.\n",
+        "output": "The expected production is 1050.14 tonnes."
+    },
+    {
+        "input": "In 2008, the district Pathanamthitta had an area of 1627.01 hectares dedicated to pepper cultivation, producing 570.93 tonnes without any disruptions.\n",
+        "output": "The expected production is 570.93 tonnes."
+    },
+    {
+        "input": "In 2008, the district Alappuzha had an area of 624.4 hectares dedicated to pepper cultivation, producing 135.83 tonnes without any disruptions.\n",
+        "output": "The expected production is 135.83 tonnes."
+    },
+    {
+        "input": "In 2008, the district Kottayam had an area of 3155.32 hectares dedicated to pepper cultivation, producing 1128.65 tonnes without any disruptions.\n",
+        "output": "The expected production is 1128.65 tonnes."
+    },
+    {
+        "input": "In 2008, the district Idukki had an area of 42730.59 hectares dedicated to pepper cultivation, producing 25516.85 tonnes without any disruptions.\n",
+        "output": "The expected production is 25516.85 tonnes."
+    },
+    {
+        "input": "In 2008, the district Ernakulam had an area of 1943.09 hectares dedicated to pepper cultivation, producing 548.48 tonnes without any disruptions.\n",
+        "output": "The expected production is 548.48 tonnes."
+    },
+    {
+        "input": "In 2008, the district Thrissur had an area of 1745.12 hectares dedicated to pepper cultivation, producing 466.99 tonnes without any disruptions.\n",
+        "output": "The expected production is 466.99 tonnes."
+    },
+    {
+        "input": "In 2008, the district Palakkad had an area of 2487.51 hectares dedicated to pepper cultivation, producing 945.45 tonnes without any disruptions.\n",
+        "output": "The expected production is 945.45 tonnes."
+    },
+    {
+        "input": "In 2008, the district Malappuram had an area of 3013.08 hectares dedicated to pepper cultivation, producing 471.76 tonnes without any disruptions.\n",
+        "output": "The expected production is 471.76 tonnes."
+    },
+    {
+        "input": "In 2008, the district Kozhikode had an area of 3379.78 hectares dedicated to pepper cultivation, producing 908.67 tonnes without any disruptions.\n",
+        "output": "The expected production is 908.67 tonnes."
+    },
+    {
+        "input": "In 2008, the district Wayanad had an area of 11969.31 hectares dedicated to pepper cultivation, producing 6314.1 tonnes without any disruptions.\n",
+        "output": "The expected production is 6314.10 tonnes."
+    },
+    {
+        "input": "In 2008, the district Kannur had an area of 4179.24 hectares dedicated to pepper cultivation, producing 1520.35 tonnes without any disruptions.\n",
+        "output": "The expected production is 1520.35 tonnes."
+    },
+    {
+        "input": "In 2008, the district Kasaragode had an area of 2653.94 hectares dedicated to pepper cultivation, producing 1148.72 tonnes without any disruptions.\n",
+        "output": "The expected production is 1148.72 tonnes."
+    },
+    {
+        "input": "In 2009, the district Thiruvananthapuram had an area of 2391.53 hectares dedicated to pepper cultivation, producing 1013.77 tonnes without any disruptions.\n",
+        "output": "The expected production is 1013.77 tonnes."
+    },
+    {
+        "input": "In 2009, the district Kollam had an area of 3432.6 hectares dedicated to pepper cultivation, producing 1126.68 tonnes without any disruptions.\n",
+        "output": "The expected production is 1126.68 tonnes."
+    },
+    {
+        "input": "In 2009, the district Pathanamthitta had an area of 1729.77 hectares dedicated to pepper cultivation, producing 606.99 tonnes without any disruptions.\n",
+        "output": "The expected production is 606.99 tonnes."
+    },
+    {
+        "input": "In 2009, the district Alappuzha had an area of 638.88 hectares dedicated to pepper cultivation, producing 138.98 tonnes without any disruptions.\n",
+        "output": "The expected production is 138.98 tonnes."
+    },
+    {
+        "input": "In 2009, the district Kottayam had an area of 3312.63 hectares dedicated to pepper cultivation, producing 1184.92 tonnes without any disruptions.\n",
+        "output": "The expected production is 1184.92 tonnes."
+    },
+    {
+        "input": "In 2009, the district Idukki had an area of 41355.84 hectares dedicated to pepper cultivation, producing 24695.91 tonnes without any disruptions.\n",
+        "output": "The expected production is 24695.91 tonnes."
+    },
+    {
+        "input": "In 2009, the district Ernakulam had an area of 1940.29 hectares dedicated to pepper cultivation, producing 547.69 tonnes without any disruptions.\n",
+        "output": "The expected production is 547.69 tonnes."
+    },
+    {
+        "input": "In 2009, the district Thrissur had an area of 1797.04 hectares dedicated to pepper cultivation, producing 480.88 tonnes without any disruptions.\n",
+        "output": "The expected production is 480.88 tonnes."
+    },
+    {
+        "input": "In 2009, the district Palakkad had an area of 2587.17 hectares dedicated to pepper cultivation, producing 983.33 tonnes without any disruptions.\n",
+        "output": "The expected production is 983.33 tonnes."
+    },
+    {
+        "input": "In 2009, the district Malappuram had an area of 3054.37 hectares dedicated to pepper cultivation, producing 478.22 tonnes without any disruptions.\n",
+        "output": "The expected production is 478.22 tonnes."
+    },
+    {
+        "input": "In 2009, the district Kozhikode had an area of 3410.77 hectares dedicated to pepper cultivation, producing 917.0 tonnes without any disruptions.\n",
+        "output": "The expected production is 917.00 tonnes."
+    },
+    {
+        "input": "In 2009, the district Wayanad had an area of 12010.64 hectares dedicated to pepper cultivation, producing 6335.91 tonnes without any disruptions.\n",
+        "output": "The expected production is 6335.91 tonnes."
+    },
+    {
+        "input": "In 2009, the district Kannur had an area of 4152.86 hectares dedicated to pepper cultivation, producing 1510.75 tonnes without any disruptions.\n",
+        "output": "The expected production is 1510.75 tonnes."
+    },
+    {
+        "input": "In 2009, the district Kasaragode had an area of 2726.98 hectares dedicated to pepper cultivation, producing 1180.33 tonnes without any disruptions.\n",
+        "output": "The expected production is 1180.33 tonnes."
+    },
+    {
+        "input": "In 2010, the district Thiruvananthapuram had an area of 2365.92 hectares dedicated to pepper cultivation, producing 1002.91 tonnes without any disruptions.\n",
+        "output": "The expected production is 1002.91 tonnes."
+    },
+    {
+        "input": "In 2010, the district Kollam had an area of 3450.12 hectares dedicated to pepper cultivation, producing 1132.43 tonnes without any disruptions.\n",
+        "output": "The expected production is 1132.43 tonnes."
+    },
+    {
+        "input": "In 2010, the district Pathanamthitta had an area of 1622.84 hectares dedicated to pepper cultivation, producing 569.47 tonnes without any disruptions.\n",
+        "output": "The expected production is 569.47 tonnes."
+    },
+    {
+        "input": "In 2010, the district Alappuzha had an area of 616.66 hectares dedicated to pepper cultivation, producing 134.14 tonnes without any disruptions.\n",
+        "output": "The expected production is 134.14 tonnes."
+    },
+    {
+        "input": "In 2010, the district Kottayam had an area of 3188.45 hectares dedicated to pepper cultivation, producing 1140.5 tonnes without any disruptions.\n",
+        "output": "The expected production is 1140.50 tonnes."
+    },
+    {
+        "input": "In 2010, the district Idukki had an area of 41507.57 hectares dedicated to pepper cultivation, producing 24786.52 tonnes without any disruptions.\n",
+        "output": "The expected production is 24786.52 tonnes."
+    },
+    {
+        "input": "In 2010, the district Ernakulam had an area of 1796.03 hectares dedicated to pepper cultivation, producing 506.97 tonnes without any disruptions.\n",
+        "output": "The expected production is 506.97 tonnes."
+    },
+    {
+        "input": "In 2010, the district Thrissur had an area of 1760.93 hectares dedicated to pepper cultivation, producing 471.22 tonnes without any disruptions.\n",
+        "output": "The expected production is 471.22 tonnes."
+    },
+    {
+        "input": "In 2010, the district Palakkad had an area of 2621.17 hectares dedicated to pepper cultivation, producing 996.25 tonnes without any disruptions.\n",
+        "output": "The expected production is 996.25 tonnes."
+    },
+    {
+        "input": "In 2010, the district Malappuram had an area of 2886.06 hectares dedicated to pepper cultivation, producing 451.87 tonnes without any disruptions.\n",
+        "output": "The expected production is 451.87 tonnes."
+    },
+    {
+        "input": "In 2010, the district Kozhikode had an area of 3480.53 hectares dedicated to pepper cultivation, producing 935.76 tonnes without any disruptions.\n",
+        "output": "The expected production is 935.76 tonnes."
+    },
+    {
+        "input": "In 2010, the district Wayanad had an area of 12751.73 hectares dedicated to pepper cultivation, producing 6726.85 tonnes without any disruptions.\n",
+        "output": "The expected production is 6726.85 tonnes."
+    },
+    {
+        "input": "In 2010, the district Kannur had an area of 4210.78 hectares dedicated to pepper cultivation, producing 1531.82 tonnes without any disruptions.\n",
+        "output": "The expected production is 1531.82 tonnes."
+    },
+    {
+        "input": "In 2010, the district Kasaragode had an area of 2876.6 hectares dedicated to pepper cultivation, producing 1245.1 tonnes without any disruptions.\n",
+        "output": "The expected production is 1245.10 tonnes."
+    },
+    {
+        "input": "In 2011, the district Thiruvananthapuram had an area of 2399.04 hectares dedicated to pepper cultivation, producing 1016.95 tonnes without any disruptions.\n",
+        "output": "The expected production is 1016.95 tonnes."
+    },
+    {
+        "input": "In 2011, the district Kollam had an area of 3247.34 hectares dedicated to pepper cultivation, producing 1065.87 tonnes without any disruptions.\n",
+        "output": "The expected production is 1065.87 tonnes."
+    },
+    {
+        "input": "In 2011, the district Pathanamthitta had an area of 1706.53 hectares dedicated to pepper cultivation, producing 598.84 tonnes without any disruptions.\n",
+        "output": "The expected production is 598.84 tonnes."
+    },
+    {
+        "input": "In 2011, the district Alappuzha had an area of 603.73 hectares dedicated to pepper cultivation, producing 131.33 tonnes without any disruptions.\n",
+        "output": "The expected production is 131.33 tonnes."
+    },
+    {
+        "input": "In 2011, the district Kottayam had an area of 3145.83 hectares dedicated to pepper cultivation, producing 1125.26 tonnes without any disruptions.\n",
+        "output": "The expected production is 1125.26 tonnes."
+    },
+    {
+        "input": "In 2011, the district Idukki had an area of 40716.79 hectares dedicated to pepper cultivation, producing 24314.3 tonnes without any disruptions.\n",
+        "output": "The expected production is 24314.30 tonnes."
+    },
+    {
+        "input": "In 2011, the district Ernakulam had an area of 1887.46 hectares dedicated to pepper cultivation, producing 532.78 tonnes without any disruptions.\n",
+        "output": "The expected production is 532.78 tonnes."
+    },
+    {
+        "input": "In 2011, the district Thrissur had an area of 1790.48 hectares dedicated to pepper cultivation, producing 479.13 tonnes without any disruptions.\n",
+        "output": "The expected production is 479.13 tonnes."
+    },
+    {
+        "input": "In 2011, the district Palakkad had an area of 2397.42 hectares dedicated to pepper cultivation, producing 911.21 tonnes without any disruptions.\n",
+        "output": "The expected production is 911.21 tonnes."
+    },
+    {
+        "input": "In 2011, the district Malappuram had an area of 2872.97 hectares dedicated to pepper cultivation, producing 449.82 tonnes without any disruptions.\n",
+        "output": "The expected production is 449.82 tonnes."
+    },
+    {
+        "input": "In 2011, the district Kozhikode had an area of 3615.83 hectares dedicated to pepper cultivation, producing 972.13 tonnes without any disruptions.\n",
+        "output": "The expected production is 972.13 tonnes."
+    },
+    {
+        "input": "In 2011, the district Wayanad had an area of 12172.5 hectares dedicated to pepper cultivation, producing 6421.29 tonnes without any disruptions.\n",
+        "output": "The expected production is 6421.29 tonnes."
+    },
+    {
+        "input": "In 2011, the district Kannur had an area of 4117.41 hectares dedicated to pepper cultivation, producing 1497.85 tonnes without any disruptions.\n",
+        "output": "The expected production is 1497.85 tonnes."
+    },
+    {
+        "input": "In 2011, the district Kasaragode had an area of 2744.1 hectares dedicated to pepper cultivation, producing 1187.74 tonnes without any disruptions.\n",
+        "output": "The expected production is 1187.74 tonnes."
+    },
+    {
+        "input": "In 2012, the district Thiruvananthapuram had an area of 2404.36 hectares dedicated to pepper cultivation, producing 1019.21 tonnes without any disruptions.\n",
+        "output": "The expected production is 1019.21 tonnes."
+    },
+    {
+        "input": "In 2012, the district Kollam had an area of 3244.1 hectares dedicated to pepper cultivation, producing 1064.81 tonnes without any disruptions.\n",
+        "output": "The expected production is 1064.81 tonnes."
+    },
+    {
+        "input": "In 2012, the district Pathanamthitta had an area of 1736.38 hectares dedicated to pepper cultivation, producing 609.31 tonnes without any disruptions.\n",
+        "output": "The expected production is 609.31 tonnes."
+    },
+    {
+        "input": "In 2012, the district Alappuzha had an area of 632.12 hectares dedicated to pepper cultivation, producing 137.51 tonnes without any disruptions.\n",
+        "output": "The expected production is 137.51 tonnes."
+    },
+    {
+        "input": "In 2012, the district Kottayam had an area of 3130.65 hectares dedicated to pepper cultivation, producing 1119.83 tonnes without any disruptions.\n",
+        "output": "The expected production is 1119.83 tonnes."
+    },
+    {
+        "input": "In 2012, the district Idukki had an area of 43668.35 hectares dedicated to pepper cultivation, producing 26076.84 tonnes without any disruptions.\n",
+        "output": "The expected production is 26076.84 tonnes."
+    },
+    {
+        "input": "In 2012, the district Ernakulam had an area of 1842.32 hectares dedicated to pepper cultivation, producing 520.03 tonnes without any disruptions.\n",
+        "output": "The expected production is 520.03 tonnes."
+    },
+    {
+        "input": "In 2012, the district Thrissur had an area of 1813.68 hectares dedicated to pepper cultivation, producing 485.34 tonnes without any disruptions.\n",
+        "output": "The expected production is 485.34 tonnes."
+    },
+    {
+        "input": "In 2012, the district Palakkad had an area of 2543.52 hectares dedicated to pepper cultivation, producing 966.74 tonnes without any disruptions.\n",
+        "output": "The expected production is 966.74 tonnes."
+    },
+    {
+        "input": "In 2012, the district Malappuram had an area of 2948.51 hectares dedicated to pepper cultivation, producing 461.65 tonnes without any disruptions.\n",
+        "output": "The expected production is 461.65 tonnes."
+    },
+    {
+        "input": "In 2012, the district Kozhikode had an area of 3331.67 hectares dedicated to pepper cultivation, producing 895.73 tonnes without any disruptions.\n",
+        "output": "The expected production is 895.73 tonnes."
+    },
+    {
+        "input": "In 2012, the district Wayanad had an area of 12917.06 hectares dedicated to pepper cultivation, producing 6814.06 tonnes without any disruptions.\n",
+        "output": "The expected production is 6814.06 tonnes."
+    },
+    {
+        "input": "In 2012, the district Kannur had an area of 4192.49 hectares dedicated to pepper cultivation, producing 1525.17 tonnes without any disruptions.\n",
+        "output": "The expected production is 1525.17 tonnes."
+    },
+    {
+        "input": "In 2012, the district Kasaragode had an area of 2660.89 hectares dedicated to pepper cultivation, producing 1151.73 tonnes without any disruptions.\n",
+        "output": "The expected production is 1151.73 tonnes."
+    },
+    {
+        "input": "In 2013, the district Thiruvananthapuram had an area of 2187.7 hectares dedicated to pepper cultivation, producing 927.36 tonnes without any disruptions.\n",
+        "output": "The expected production is 927.36 tonnes."
+    },
+    {
+        "input": "In 2013, the district Kollam had an area of 3360.27 hectares dedicated to pepper cultivation, producing 1102.94 tonnes without any disruptions.\n",
+        "output": "The expected production is 1102.94 tonnes."
+    },
+    {
+        "input": "In 2013, the district Pathanamthitta had an area of 1737.31 hectares dedicated to pepper cultivation, producing 609.64 tonnes without any disruptions.\n",
+        "output": "The expected production is 609.64 tonnes."
+    },
+    {
+        "input": "In 2013, the district Alappuzha had an area of 586.22 hectares dedicated to pepper cultivation, producing 127.52 tonnes without any disruptions.\n",
+        "output": "The expected production is 127.52 tonnes."
+    },
+    {
+        "input": "In 2013, the district Kottayam had an area of 3218.89 hectares dedicated to pepper cultivation, producing 1151.39 tonnes without any disruptions.\n",
+        "output": "The expected production is 1151.39 tonnes."
+    },
+    {
+        "input": "In 2013, the district Idukki had an area of 41526.3 hectares dedicated to pepper cultivation, producing 24797.7 tonnes without any disruptions.\n",
+        "output": "The expected production is 24797.70 tonnes."
+    },
+    {
+        "input": "In 2013, the district Ernakulam had an area of 1894.1 hectares dedicated to pepper cultivation, producing 534.65 tonnes without any disruptions.\n",
+        "output": "The expected production is 534.65 tonnes."
+    },
+    {
+        "input": "In 2013, the district Thrissur had an area of 1731.71 hectares dedicated to pepper cultivation, producing 463.4 tonnes without any disruptions.\n",
+        "output": "The expected production is 463.40 tonnes."
+    },
+    {
+        "input": "In 2013, the district Palakkad had an area of 2557.93 hectares dedicated to pepper cultivation, producing 972.22 tonnes without any disruptions.\n",
+        "output": "The expected production is 972.22 tonnes."
+    },
+    {
+        "input": "In 2013, the district Malappuram had an area of 2904.72 hectares dedicated to pepper cultivation, producing 454.79 tonnes without any disruptions.\n",
+        "output": "The expected production is 454.79 tonnes."
+    },
+    {
+        "input": "In 2013, the district Kozhikode had an area of 3625.72 hectares dedicated to pepper cultivation, producing 974.79 tonnes without any disruptions.\n",
+        "output": "The expected production is 974.79 tonnes."
+    },
+    {
+        "input": "In 2013, the district Wayanad had an area of 12044.97 hectares dedicated to pepper cultivation, producing 6354.02 tonnes without any disruptions.\n",
+        "output": "The expected production is 6354.02 tonnes."
+    },
+    {
+        "input": "In 2013, the district Kannur had an area of 4201.15 hectares dedicated to pepper cultivation, producing 1528.32 tonnes without any disruptions.\n",
+        "output": "The expected production is 1528.32 tonnes."
+    },
+    {
+        "input": "In 2013, the district Kasaragode had an area of 2640.82 hectares dedicated to pepper cultivation, producing 1143.04 tonnes without any disruptions.\n",
+        "output": "The expected production is 1143.04 tonnes."
+    },
+    {
+        "input": "In 2014, the district Thiruvananthapuram had an area of 2390.38 hectares dedicated to pepper cultivation, producing 1013.28 tonnes without any disruptions.\n",
+        "output": "The expected production is 1013.28 tonnes."
+    },
+    {
+        "input": "In 2014, the district Kollam had an area of 3455.65 hectares dedicated to pepper cultivation, producing 1134.24 tonnes without any disruptions.\n",
+        "output": "The expected production is 1134.24 tonnes."
+    },
+    {
+        "input": "In 2014, the district Pathanamthitta had an area of 1665.68 hectares dedicated to pepper cultivation, producing 584.5 tonnes without any disruptions.\n",
+        "output": "The expected production is 584.50 tonnes."
+    },
+    {
+        "input": "In 2014, the district Alappuzha had an area of 625.86 hectares dedicated to pepper cultivation, producing 136.14 tonnes without any disruptions.\n",
+        "output": "The expected production is 136.14 tonnes."
+    },
+    {
+        "input": "In 2014, the district Kottayam had an area of 3316.99 hectares dedicated to pepper cultivation, producing 1186.48 tonnes without any disruptions.\n",
+        "output": "The expected production is 1186.48 tonnes."
+    },
+    {
+        "input": "In 2014, the district Idukki had an area of 42929.67 hectares dedicated to pepper cultivation, producing 25635.73 tonnes without any disruptions.\n",
+        "output": "The expected production is 25635.73 tonnes."
+    },
+    {
+        "input": "In 2014, the district Ernakulam had an area of 1872.54 hectares dedicated to pepper cultivation, producing 528.56 tonnes without any disruptions.\n",
+        "output": "The expected production is 528.56 tonnes."
+    },
+    {
+        "input": "In 2014, the district Thrissur had an area of 1743.79 hectares dedicated to pepper cultivation, producing 466.63 tonnes without any disruptions.\n",
+        "output": "The expected production is 466.63 tonnes."
+    },
+    {
+        "input": "In 2014, the district Palakkad had an area of 2407.87 hectares dedicated to pepper cultivation, producing 915.18 tonnes without any disruptions.\n",
+        "output": "The expected production is 915.18 tonnes."
+    },
+    {
+        "input": "In 2014, the district Malappuram had an area of 3054.7 hectares dedicated to pepper cultivation, producing 478.27 tonnes without any disruptions.\n",
+        "output": "The expected production is 478.27 tonnes."
+    },
+    {
+        "input": "In 2014, the district Kozhikode had an area of 3613.11 hectares dedicated to pepper cultivation, producing 971.4 tonnes without any disruptions.\n",
+        "output": "The expected production is 971.40 tonnes."
+    },
+    {
+        "input": "In 2014, the district Wayanad had an area of 12664.35 hectares dedicated to pepper cultivation, producing 6680.75 tonnes without any disruptions.\n",
+        "output": "The expected production is 6680.75 tonnes."
+    },
+    {
+        "input": "In 2014, the district Kannur had an area of 4200.28 hectares dedicated to pepper cultivation, producing 1528.0 tonnes without any disruptions.\n",
+        "output": "The expected production is 1528.00 tonnes."
+    },
+    {
+        "input": "In 2014, the district Kasaragode had an area of 2705.58 hectares dedicated to pepper cultivation, producing 1171.07 tonnes without any disruptions.\n",
+        "output": "The expected production is 1171.07 tonnes."
+    },
+    {
+        "input": "In 2015, the district Thiruvananthapuram had an area of 2344.81 hectares dedicated to pepper cultivation, producing 993.96 tonnes without any disruptions.\n",
+        "output": "The expected production is 993.96 tonnes."
+    },
+    {
+        "input": "In 2015, the district Kollam had an area of 3462.24 hectares dedicated to pepper cultivation, producing 1136.4 tonnes without any disruptions.\n",
+        "output": "The expected production is 1136.40 tonnes."
+    },
+    {
+        "input": "In 2015, the district Pathanamthitta had an area of 1773.08 hectares dedicated to pepper cultivation, producing 622.19 tonnes without any disruptions.\n",
+        "output": "The expected production is 622.19 tonnes."
+    },
+    {
+        "input": "In 2015, the district Alappuzha had an area of 633.24 hectares dedicated to pepper cultivation, producing 137.75 tonnes without any disruptions.\n",
+        "output": "The expected production is 137.75 tonnes."
+    },
+    {
+        "input": "In 2015, the district Kottayam had an area of 3260.66 hectares dedicated to pepper cultivation, producing 1166.33 tonnes without any disruptions.\n",
+        "output": "The expected production is 1166.33 tonnes."
+    },
+    {
+        "input": "In 2015, the district Idukki had an area of 40918.53 hectares dedicated to pepper cultivation, producing 24434.77 tonnes without any disruptions.\n",
+        "output": "The expected production is 24434.77 tonnes."
+    },
+    {
+        "input": "In 2015, the district Ernakulam had an area of 1803.83 hectares dedicated to pepper cultivation, producing 509.17 tonnes without any disruptions.\n",
+        "output": "The expected production is 509.17 tonnes."
+    },
+    {
+        "input": "In 2015, the district Thrissur had an area of 1861.34 hectares dedicated to pepper cultivation, producing 498.09 tonnes without any disruptions.\n",
+        "output": "The expected production is 498.09 tonnes."
+    },
+    {
+        "input": "In 2015, the district Palakkad had an area of 2536.71 hectares dedicated to pepper cultivation, producing 964.15 tonnes without any disruptions.\n",
+        "output": "The expected production is 964.15 tonnes."
+    },
+    {
+        "input": "In 2015, the district Malappuram had an area of 2793.8 hectares dedicated to pepper cultivation, producing 437.42 tonnes without any disruptions.\n",
+        "output": "The expected production is 437.42 tonnes."
+    },
+    {
+        "input": "In 2015, the district Kozhikode had an area of 3335.55 hectares dedicated to pepper cultivation, producing 896.78 tonnes without any disruptions.\n",
+        "output": "The expected production is 896.78 tonnes."
+    },
+    {
+        "input": "In 2015, the district Wayanad had an area of 12702.34 hectares dedicated to pepper cultivation, producing 6700.79 tonnes without any disruptions.\n",
+        "output": "The expected production is 6700.79 tonnes."
+    },
+    {
+        "input": "In 2015, the district Kannur had an area of 4057.71 hectares dedicated to pepper cultivation, producing 1476.14 tonnes without any disruptions.\n",
+        "output": "The expected production is 1476.14 tonnes."
+    },
+    {
+        "input": "In 2015, the district Kasaragode had an area of 2653.82 hectares dedicated to pepper cultivation, producing 1148.67 tonnes without any disruptions.\n",
+        "output": "The expected production is 1148.67 tonnes."
+    },
+    {
+        "input": "In 2016, the district Thiruvananthapuram had an area of 2304.17 hectares dedicated to pepper cultivation, producing 976.73 tonnes without any disruptions.\n",
+        "output": "The expected production is 976.73 tonnes."
+    },
+    {
+        "input": "In 2016, the district Kollam had an area of 3393.9 hectares dedicated to pepper cultivation, producing 1113.97 tonnes without any disruptions.\n",
+        "output": "The expected production is 1113.97 tonnes."
+    },
+    {
+        "input": "In 2016, the district Pathanamthitta had an area of 1732.94 hectares dedicated to pepper cultivation, producing 608.1 tonnes without any disruptions.\n",
+        "output": "The expected production is 608.10 tonnes."
+    },
+    {
+        "input": "In 2016, the district Alappuzha had an area of 599.01 hectares dedicated to pepper cultivation, producing 130.3 tonnes without any disruptions.\n",
+        "output": "The expected production is 130.30 tonnes."
+    },
+    {
+        "input": "In 2016, the district Kottayam had an area of 3283.22 hectares dedicated to pepper cultivation, producing 1174.4 tonnes without any disruptions.\n",
+        "output": "The expected production is 1174.40 tonnes."
+    },
+    {
+        "input": "In 2016, the district Idukki had an area of 41572.21 hectares dedicated to pepper cultivation, producing 24825.12 tonnes without any disruptions.\n",
+        "output": "The expected production is 24825.12 tonnes."
+    },
+    {
+        "input": "In 2016, the district Ernakulam had an area of 1834.4 hectares dedicated to pepper cultivation, producing 517.8 tonnes without any disruptions.\n",
+        "output": "The expected production is 517.80 tonnes."
+    },
+    {
+        "input": "In 2016, the district Thrissur had an area of 1834.12 hectares dedicated to pepper cultivation, producing 490.81 tonnes without any disruptions.\n",
+        "output": "The expected production is 490.81 tonnes."
+    },
+    {
+        "input": "In 2016, the district Palakkad had an area of 2547.56 hectares dedicated to pepper cultivation, producing 968.28 tonnes without any disruptions.\n",
+        "output": "The expected production is 968.28 tonnes."
+    },
+    {
+        "input": "In 2016, the district Malappuram had an area of 3040.6 hectares dedicated to pepper cultivation, producing 476.06 tonnes without any disruptions.\n",
+        "output": "The expected production is 476.06 tonnes."
+    },
+    {
+        "input": "In 2016, the district Kozhikode had an area of 3528.75 hectares dedicated to pepper cultivation, producing 948.72 tonnes without any disruptions.\n",
+        "output": "The expected production is 948.72 tonnes."
+    },
+    {
+        "input": "In 2016, the district Wayanad had an area of 12583.37 hectares dedicated to pepper cultivation, producing 6638.03 tonnes without any disruptions.\n",
+        "output": "The expected production is 6638.03 tonnes."
+    },
+    {
+        "input": "In 2016, the district Kannur had an area of 4095.54 hectares dedicated to pepper cultivation, producing 1489.9 tonnes without any disruptions.\n",
+        "output": "The expected production is 1489.90 tonnes."
+    },
+    {
+        "input": "In 2016, the district Kasaragode had an area of 2710.66 hectares dedicated to pepper cultivation, producing 1173.27 tonnes without any disruptions.\n",
+        "output": "The expected production is 1173.27 tonnes."
+    },
+    {
+        "input": "In 2017, the district Thiruvananthapuram had an area of 2239.16 hectares dedicated to pepper cultivation, producing 949.18 tonnes without any disruptions.\n",
+        "output": "The expected production is 949.18 tonnes."
+    },
+    {
+        "input": "In 2017, the district Kollam had an area of 3244.75 hectares dedicated to pepper cultivation, producing 1065.02 tonnes without any disruptions.\n",
+        "output": "The expected production is 1065.02 tonnes."
+    },
+    {
+        "input": "In 2017, the district Pathanamthitta had an area of 1787.74 hectares dedicated to pepper cultivation, producing 627.33 tonnes without any disruptions.\n",
+        "output": "The expected production is 627.33 tonnes."
+    },
+    {
+        "input": "In 2017, the district Alappuzha had an area of 609.41 hectares dedicated to pepper cultivation, producing 132.57 tonnes without any disruptions.\n",
+        "output": "The expected production is 132.57 tonnes."
+    },
+    {
+        "input": "In 2017, the district Kottayam had an area of 3341.04 hectares dedicated to pepper cultivation, producing 1195.08 tonnes without any disruptions.\n",
+        "output": "The expected production is 1195.08 tonnes."
+    },
+    {
+        "input": "In 2017, the district Idukki had an area of 43253.88 hectares dedicated to pepper cultivation, producing 25829.34 tonnes without any disruptions.\n",
+        "output": "The expected production is 25829.34 tonnes."
+    },
+    {
+        "input": "In 2017, the district Ernakulam had an area of 1922.04 hectares dedicated to pepper cultivation, producing 542.54 tonnes without any disruptions.\n",
+        "output": "The expected production is 542.54 tonnes."
+    },
+    {
+        "input": "In 2017, the district Thrissur had an area of 1790.47 hectares dedicated to pepper cultivation, producing 479.13 tonnes without any disruptions.\n",
+        "output": "The expected production is 479.13 tonnes."
+    },
+    {
+        "input": "In 2017, the district Palakkad had an area of 2529.3 hectares dedicated to pepper cultivation, producing 961.34 tonnes without any disruptions.\n",
+        "output": "The expected production is 961.34 tonnes."
+    },
+    {
+        "input": "In 2017, the district Malappuram had an area of 2935.8 hectares dedicated to pepper cultivation, producing 459.66 tonnes without any disruptions.\n",
+        "output": "The expected production is 459.66 tonnes."
+    },
+    {
+        "input": "In 2017, the district Kozhikode had an area of 3368.13 hectares dedicated to pepper cultivation, producing 905.54 tonnes without any disruptions.\n",
+        "output": "The expected production is 905.54 tonnes."
+    },
+    {
+        "input": "In 2017, the district Wayanad had an area of 12776.02 hectares dedicated to pepper cultivation, producing 6739.66 tonnes without any disruptions.\n",
+        "output": "The expected production is 6739.66 tonnes."
+    },
+    {
+        "input": "In 2017, the district Kannur had an area of 4175.41 hectares dedicated to pepper cultivation, producing 1518.95 tonnes without any disruptions.\n",
+        "output": "The expected production is 1518.95 tonnes."
+    },
+    {
+        "input": "In 2017, the district Kasaragode had an area of 2616.33 hectares dedicated to pepper cultivation, producing 1132.44 tonnes without any disruptions.\n",
+        "output": "The expected production is 1132.44 tonnes."
+    },
+    {
+        "input": "In 2018, the district Thiruvananthapuram had an area of 2326.36 hectares dedicated to pepper cultivation, producing 986.14 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 680.44 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 680.44 tonnes."
+    },
+    {
+        "input": "In 2018, the district Kollam had an area of 3222.48 hectares dedicated to pepper cultivation, producing 1057.71 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 729.82 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 729.82 tonnes."
+    },
+    {
+        "input": "In 2018, the district Pathanamthitta had an area of 1782.19 hectares dedicated to pepper cultivation, producing 625.38 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 431.51 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 431.51 tonnes."
+    },
+    {
+        "input": "In 2018, the district Alappuzha had an area of 643.96 hectares dedicated to pepper cultivation, producing 140.08 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 96.66 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 96.66 tonnes."
+    },
+    {
+        "input": "In 2018, the district Kottayam had an area of 3348.38 hectares dedicated to pepper cultivation, producing 1197.71 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 826.42 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 826.42 tonnes."
+    },
+    {
+        "input": "In 2018, the district Idukki had an area of 42139.66 hectares dedicated to pepper cultivation, producing 25163.97 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 17363.14 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 17363.14 tonnes."
+    },
+    {
+        "input": "In 2018, the district Ernakulam had an area of 1776.54 hectares dedicated to pepper cultivation, producing 501.47 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 346.01 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 346.01 tonnes."
+    },
+    {
+        "input": "In 2018, the district Thrissur had an area of 1866.67 hectares dedicated to pepper cultivation, producing 499.52 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 344.67 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 344.67 tonnes."
+    },
+    {
+        "input": "In 2018, the district Palakkad had an area of 2491.97 hectares dedicated to pepper cultivation, producing 947.15 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 653.53 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 653.53 tonnes."
+    },
+    {
+        "input": "In 2018, the district Malappuram had an area of 3075.1 hectares dedicated to pepper cultivation, producing 481.47 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 332.21 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 332.21 tonnes."
+    },
+    {
+        "input": "In 2018, the district Kozhikode had an area of 3635.06 hectares dedicated to pepper cultivation, producing 977.3 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 674.34 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 674.34 tonnes."
+    },
+    {
+        "input": "In 2018, the district Wayanad had an area of 12939.19 hectares dedicated to pepper cultivation, producing 6825.74 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 4709.76 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 4709.76 tonnes."
+    },
+    {
+        "input": "In 2018, the district Kannur had an area of 4181.25 hectares dedicated to pepper cultivation, producing 1521.08 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 1049.55 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 1049.55 tonnes."
+    },
+    {
+        "input": "In 2018, the district Kasaragode had an area of 2715.44 hectares dedicated to pepper cultivation, producing 1175.34 tonnes. Due to disruptions with a severity of 31%, the production was reduced to 810.98 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 810.98 tonnes."
+    },
+    {
+        "input": "In 2019, the district Thiruvananthapuram had an area of 2373.52 hectares dedicated to pepper cultivation, producing 1006.13 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 724.41 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 724.41 tonnes."
+    },
+    {
+        "input": "In 2019, the district Kollam had an area of 3269.04 hectares dedicated to pepper cultivation, producing 1072.99 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 772.55 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 772.55 tonnes."
+    },
+    {
+        "input": "In 2019, the district Pathanamthitta had an area of 1650.58 hectares dedicated to pepper cultivation, producing 579.2 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 417.02 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 417.02 tonnes."
+    },
+    {
+        "input": "In 2019, the district Alappuzha had an area of 619.5 hectares dedicated to pepper cultivation, producing 134.76 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 97.03 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 97.03 tonnes."
+    },
+    {
+        "input": "In 2019, the district Kottayam had an area of 3355.22 hectares dedicated to pepper cultivation, producing 1200.16 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 864.12 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 864.12 tonnes."
+    },
+    {
+        "input": "In 2019, the district Idukki had an area of 43530.93 hectares dedicated to pepper cultivation, producing 25994.78 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 18716.24 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 18716.24 tonnes."
+    },
+    {
+        "input": "In 2019, the district Ernakulam had an area of 1880.08 hectares dedicated to pepper cultivation, producing 530.69 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 382.1 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 382.10 tonnes."
+    },
+    {
+        "input": "In 2019, the district Thrissur had an area of 1717.89 hectares dedicated to pepper cultivation, producing 459.7 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 330.98 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 330.98 tonnes."
+    },
+    {
+        "input": "In 2019, the district Palakkad had an area of 2538.87 hectares dedicated to pepper cultivation, producing 964.97 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 694.78 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 694.78 tonnes."
+    },
+    {
+        "input": "In 2019, the district Malappuram had an area of 3081.98 hectares dedicated to pepper cultivation, producing 482.54 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 347.43 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 347.43 tonnes."
+    },
+    {
+        "input": "In 2019, the district Kozhikode had an area of 3348.97 hectares dedicated to pepper cultivation, producing 900.39 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 648.28 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 648.28 tonnes."
+    },
+    {
+        "input": "In 2019, the district Wayanad had an area of 12520.91 hectares dedicated to pepper cultivation, producing 6605.09 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 4755.66 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 4755.66 tonnes."
+    },
+    {
+        "input": "In 2019, the district Kannur had an area of 4430.1 hectares dedicated to pepper cultivation, producing 1611.61 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 1160.36 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 1160.36 tonnes."
+    },
+    {
+        "input": "In 2019, the district Kasaragode had an area of 2813.14 hectares dedicated to pepper cultivation, producing 1217.63 tonnes. Due to disruptions with a severity of 28%, the production was reduced to 876.69 tonnes.\n",
+        "output": "Due to a disruption the output was reduced. The expected production is 876.69 tonnes."
+    },
+    {
+        "input": "In 2020, the district Thiruvananthapuram had an area of 2338.18 hectares dedicated to pepper cultivation, producing 991.15 tonnes without any disruptions.\n",
+        "output": "The expected production is 991.15 tonnes."
+    },
+    {
+        "input": "In 2020, the district Kollam had an area of 3397.43 hectares dedicated to pepper cultivation, producing 1115.13 tonnes without any disruptions.\n",
+        "output": "The expected production is 1115.13 tonnes."
+    },
+    {
+        "input": "In 2020, the district Pathanamthitta had an area of 1683.02 hectares dedicated to pepper cultivation, producing 590.59 tonnes without any disruptions.\n",
+        "output": "The expected production is 590.59 tonnes."
+    },
+    {
+        "input": "In 2020, the district Alappuzha had an area of 603.29 hectares dedicated to pepper cultivation, producing 131.24 tonnes without any disruptions.\n",
+        "output": "The expected production is 131.24 tonnes."
+    },
+    {
+        "input": "In 2020, the district Kottayam had an area of 3314.46 hectares dedicated to pepper cultivation, producing 1185.58 tonnes without any disruptions.\n",
+        "output": "The expected production is 1185.58 tonnes."
+    },
+    {
+        "input": "In 2020, the district Idukki had an area of 44018.0 hectares dedicated to pepper cultivation, producing 26285.64 tonnes without any disruptions.\n",
+        "output": "The expected production is 26285.64 tonnes."
+    },
+    {
+        "input": "In 2020, the district Ernakulam had an area of 1935.53 hectares dedicated to pepper cultivation, producing 546.34 tonnes without any disruptions.\n",
+        "output": "The expected production is 546.34 tonnes."
+    },
+    {
+        "input": "In 2020, the district Thrissur had an area of 1863.97 hectares dedicated to pepper cultivation, producing 498.79 tonnes without any disruptions.\n",
+        "output": "The expected production is 498.79 tonnes."
+    },
+    {
+        "input": "In 2020, the district Palakkad had an area of 2512.85 hectares dedicated to pepper cultivation, producing 955.08 tonnes without any disruptions.\n",
+        "output": "The expected production is 955.08 tonnes."
+    },
+    {
+        "input": "In 2020, the district Malappuram had an area of 2938.45 hectares dedicated to pepper cultivation, producing 460.07 tonnes without any disruptions.\n",
+        "output": "The expected production is 460.07 tonnes."
+    },
+    {
+        "input": "In 2020, the district Kozhikode had an area of 3577.63 hectares dedicated to pepper cultivation, producing 961.86 tonnes without any disruptions.\n",
+        "output": "The expected production is 961.86 tonnes."
+    },
+    {
+        "input": "In 2020, the district Wayanad had an area of 12685.42 hectares dedicated to pepper cultivation, producing 6691.87 tonnes without any disruptions.\n",
+        "output": "The expected production is 6691.87 tonnes."
+    },
+    {
+        "input": "In 2020, the district Kannur had an area of 4355.22 hectares dedicated to pepper cultivation, producing 1584.37 tonnes without any disruptions.\n",
+        "output": "The expected production is 1584.37 tonnes."
+    },
+    {
+        "input": "In 2020, the district Kasaragode had an area of 2828.25 hectares dedicated to pepper cultivation, producing 1224.17 tonnes without any disruptions.",
+        "output": "The expected production is 1224.17 tonnes."
+    }
+]
