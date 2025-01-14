@@ -53,6 +53,6 @@ def estimate_severity(news_article):
     return "Low Severity"
 
 if response == "negative":
-    print("A disruption is predicted in the supply chain, kindly make the neccessary arrangements")
+    print("A disruption is predicted in the supply chain, kindly make the necessary arrangements")
     severity = estimate_severity(news_article)
     print(f"Predicted Severity: {severity}")
