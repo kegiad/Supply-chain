@@ -11,10 +11,10 @@ tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=True)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path).to(device)
 
 # Input with task prefix
-input_text = input_text = "Global Markets Surge as Tech Giants Report Record-Breaking profits"
-inputs = tokenizer(f"Classify sentiment: {input_text}", return_tensors="pt").to(device)
+news_article = "Heavy floods destroy crops in Idukki, causing major agricultural damage."
+input_text = news_article
+inputs = tokenizer(f"Classify Sentiment: {input_text}", return_tensors="pt").to(device)
 
-#inputs = tokenizer(input_text, return_tensors="pt").to(device)
 print("Tokenized input:", inputs)
 
 # Clear MPS cache
@@ -40,3 +40,19 @@ print("Raw output:", raw_output)
 
 response = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print("Cleaned Model response:", response)
+
+def estimate_severity(news_article):
+    high_impact_areas = ["Idukki", "Wayanad"]
+    severe_events = ["flood", "drought", "landslide"]
+
+    news_lower = news_article.lower()
+
+    if any(area.lower() in news_lower for area in high_impact_areas):
+        if any(event in news_lower for event in severe_events):
+            return "High Severity"
+    return "Low Severity"
+
+if response == "negative":
+    print("A disruption is predicted in the supply chain, kindly make the neccessary arrangements")
+    severity = estimate_severity(news_article)
+    print(f"Predicted Severity: {severity}")
