@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import sqlite3
-from PIL import Image, ImageTk  # Import Pillow for handling image formats like jpeg
+from PIL import Image, ImageTk
 from import_page import ImportPage
 from export_page import ExportPage
 from inventory_viewer import ViewDataPage
@@ -30,8 +30,8 @@ class HomePage(tk.Tk):
 
         # Create buttons to navigate to other pages and place them over the image
         button1 = tk.Button(self, text="Go to Imports", command=self.show_import_page,
-                            bg="#4CAF50", fg="black",  # Set initial background and text color
-                            relief="raised",  # Give button a raised appearance
+                            bg="#4CAF50", fg="black",
+                            relief="raised",
                             padx=10, pady=5)
         button1.place(relx=0.01, rely=0.3, anchor="nw")
 
@@ -39,19 +39,19 @@ class HomePage(tk.Tk):
                             bg="#2196F3", fg="black",
                             relief="raised",
                             padx=10, pady=5)
-        button2.place(relx=0.01, rely=0.4, anchor="nw")  # Position it below the first button
+        button2.place(relx=0.01, rely=0.4, anchor="nw")
 
         button3 = tk.Button(self, text="Show Logs", command=self.show_logs_page,
                             bg="#f44336", fg="black",
                             relief="raised",
                             padx=10, pady=5)
-        button3.place(relx=0.01, rely=0.5, anchor="nw")  # Position it below the second button
+        button3.place(relx=0.01, rely=0.5, anchor="nw")
 
         button4 = tk.Button(self, text="Inventory", command=self.show_inventory,
                             bg="#f44336", fg="black",
                             relief="raised",
                             padx=10, pady=5)
-        button4.place(relx=0.01, rely=0.6, anchor="nw")  # Position it below the second button
+        button4.place(relx=0.01, rely=0.6, anchor="nw")
 
         # Add hover effect for buttons
         button1.bind("<Enter>", lambda e: self.change_bgcolor(button1, "#45a049"))
@@ -82,29 +82,48 @@ class HomePage(tk.Tk):
         button.config(bg=color)
 
     def show_inventory(self):
-        """Show the current inventory level in kg."""
+        """Show the current inventory level in kg and warn if nearing capacity."""
+        MAX_CAPACITY = 10000  # Maximum storage capacity in kg
+        WARNING_THRESHOLD = 0.8  # 80% threshold
+        WARNING_LOW = 0.1
+
         conn = sqlite3.connect('inventory.db')
         cursor = conn.cursor()
 
-        # Fetch the sum of all imports and exports
         try:
+            # Calculate total imports and exports
             cursor.execute("SELECT SUM(quantity) FROM imports1")
             total_imports = cursor.fetchone()[0] or 0
 
             cursor.execute("SELECT SUM(quantity) FROM exports1")
             total_exports = cursor.fetchone()[0] or 0
 
-            # Calculate the current inventory
+            # Calculate current inventory
             current_inventory = total_imports - total_exports
 
-            # Display the inventory
-            messagebox.showinfo("Current Inventory", f"Current Inventory: {current_inventory} kg")
+            # Show warning if inventory exceeds 80% capacity
+            if current_inventory >= MAX_CAPACITY:
+                messagebox.showerror("Inventory Full",
+                                     f"⚠️ Inventory is FULL! Cannot add more stock.\nCurrent Inventory: {current_inventory} kg")
+            elif current_inventory >= WARNING_THRESHOLD * MAX_CAPACITY:
+                messagebox.showwarning("Inventory Warning",
+                                       f"⚠️ Inventory is almost full!\nCurrent Inventory: {current_inventory} kg\nCapacity: {MAX_CAPACITY} kg")
+            elif current_inventory <= WARNING_LOW * MAX_CAPACITY:
+                messagebox.showwarning("Inventory Warning",
+                                       f"⚠️ Inventory is almost empty\nCurrent Inventory: {current_inventory} kg\nCapacity: {MAX_CAPACITY} kg")
+
+            # Show current inventory status
+            else:
+                messagebox.showinfo("Current Inventory",
+                                    f"Current Inventory: {current_inventory} kg\nCapacity: {MAX_CAPACITY} kg")
 
         except sqlite3.Error as e:
             messagebox.showerror("Database Error", f"Error fetching inventory data: {e}")
 
         finally:
             conn.close()
+
+
 if __name__ == "__main__":
     app = HomePage()
     app.mainloop()
