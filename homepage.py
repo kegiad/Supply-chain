@@ -53,18 +53,6 @@ class HomePage(tk.Tk):
                             padx=10, pady=5)
         button4.place(relx=0.01, rely=0.6, anchor="nw")
 
-        # Add hover effect for buttons
-        button1.bind("<Enter>", lambda e: self.change_bgcolor(button1, "#45a049"))
-        button1.bind("<Leave>", lambda e: self.change_bgcolor(button1, "#4CAF50"))
-
-        button2.bind("<Enter>", lambda e: self.change_bgcolor(button2, "#1976D2"))
-        button2.bind("<Leave>", lambda e: self.change_bgcolor(button2, "#2196F3"))
-
-        button3.bind("<Enter>", lambda e: self.change_bgcolor(button3, "#e53935"))
-        button3.bind("<Leave>", lambda e: self.change_bgcolor(button3, "#f44336"))
-
-        button4.bind("<Enter>", lambda e: self.change_bgcolor(button3, "#e53935"))
-        button4.bind("<Leave>", lambda e: self.change_bgcolor(button3, "#f44336"))
     def show_import_page(self):
         self.destroy()  # Close the homepage
         ImportPage()    # Open Import Page
