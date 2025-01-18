@@ -1,0 +1,110 @@
+import tkinter as tk
+from tkinter import messagebox
+import sqlite3
+from PIL import Image, ImageTk  # Import Pillow for handling image formats like jpeg
+from import_page import ImportPage
+from export_page import ExportPage
+from inventory_viewer import ViewDataPage
+
+class HomePage(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        self.title("Pepper Inventory Management")
+        self.geometry("800x600")
+
+        # Create a canvas to hold the background image
+        self.canvas = tk.Canvas(self, width=800, height=600)
+        self.canvas.pack(fill="both", expand=True)
+
+        # Load the background image using Pillow (PIL)
+        self.bg_image = Image.open("pepper.jpeg")  # Load your jpeg image
+        self.bg_image = ImageTk.PhotoImage(self.bg_image)  # Convert to a Tkinter-compatible format
+
+        # Display the image on the canvas
+        self.canvas.create_image(0, 0, image=self.bg_image, anchor="nw")
+
+        # Add Heading Label
+        heading = tk.Label(self, text="Inventory Management System for Pepper", font=("Arial", 36, "bold"),
+                           bg="black", fg="white")
+        heading.place(relx=0.5, rely=0.1, anchor="center")
+
+        # Create buttons to navigate to other pages and place them over the image
+        button1 = tk.Button(self, text="Go to Imports", command=self.show_import_page,
+                            bg="#4CAF50", fg="black",  # Set initial background and text color
+                            relief="raised",  # Give button a raised appearance
+                            padx=10, pady=5)
+        button1.place(relx=0.01, rely=0.3, anchor="nw")
+
+        button2 = tk.Button(self, text="Go to Exports", command=self.show_export_page,
+                            bg="#2196F3", fg="black",
+                            relief="raised",
+                            padx=10, pady=5)
+        button2.place(relx=0.01, rely=0.4, anchor="nw")  # Position it below the first button
+
+        button3 = tk.Button(self, text="Show Logs", command=self.show_logs_page,
+                            bg="#f44336", fg="black",
+                            relief="raised",
+                            padx=10, pady=5)
+        button3.place(relx=0.01, rely=0.5, anchor="nw")  # Position it below the second button
+
+        button4 = tk.Button(self, text="Inventory", command=self.show_inventory,
+                            bg="#f44336", fg="black",
+                            relief="raised",
+                            padx=10, pady=5)
+        button4.place(relx=0.01, rely=0.6, anchor="nw")  # Position it below the second button
+
+        # Add hover effect for buttons
+        button1.bind("<Enter>", lambda e: self.change_bgcolor(button1, "#45a049"))
+        button1.bind("<Leave>", lambda e: self.change_bgcolor(button1, "#4CAF50"))
+
+        button2.bind("<Enter>", lambda e: self.change_bgcolor(button2, "#1976D2"))
+        button2.bind("<Leave>", lambda e: self.change_bgcolor(button2, "#2196F3"))
+
+        button3.bind("<Enter>", lambda e: self.change_bgcolor(button3, "#e53935"))
+        button3.bind("<Leave>", lambda e: self.change_bgcolor(button3, "#f44336"))
+
+        button4.bind("<Enter>", lambda e: self.change_bgcolor(button3, "#e53935"))
+        button4.bind("<Leave>", lambda e: self.change_bgcolor(button3, "#f44336"))
+    def show_import_page(self):
+        self.destroy()  # Close the homepage
+        ImportPage()    # Open Import Page
+
+    def show_export_page(self):
+        self.destroy()  # Close the homepage
+        ExportPage()    # Open Export Page
+
+    def show_logs_page(self):
+        self.destroy()
+        ViewDataPage()
+
+    def change_bgcolor(self, button, color):
+        """Function to change button background color on hover."""
+        button.config(bg=color)
+
+    def show_inventory(self):
+        """Show the current inventory level in kg."""
+        conn = sqlite3.connect('inventory.db')
+        cursor = conn.cursor()
+
+        # Fetch the sum of all imports and exports
+        try:
+            cursor.execute("SELECT SUM(quantity) FROM imports1")
+            total_imports = cursor.fetchone()[0] or 0
+
+            cursor.execute("SELECT SUM(quantity) FROM exports1")
+            total_exports = cursor.fetchone()[0] or 0
+
+            # Calculate the current inventory
+            current_inventory = total_imports - total_exports
+
+            # Display the inventory
+            messagebox.showinfo("Current Inventory", f"Current Inventory: {current_inventory} kg")
+
+        except sqlite3.Error as e:
+            messagebox.showerror("Database Error", f"Error fetching inventory data: {e}")
+
+        finally:
+            conn.close()
+if __name__ == "__main__":
+    app = HomePage()
+    app.mainloop()
