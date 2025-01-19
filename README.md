@@ -27,4 +27,23 @@ This project uses large language models (LLMs) to optimize supply chain manageme
 ## LLM used
 - This project uses LLaMA 3.2 with 1B parameters.
 - The Llama 3.2 instruction-tuned text only models are optimized for multilingual dialogue use cases, including agentic retrieval and summarization tasks. They outperform many of the available open source and closed chat models on common industry benchmarks.
-- Context length : 128K tokens 
+- Context length : 128K tokens
+
+## Inventory Management System
+An intuitive desktop application for managing the inventory of pepper imports and exports. Built using Python and Tkinter, this system helps track inventory levels, suppliers, exporters, and logs while ensuring efficient stock management.
+# Home Page
+- Central hub for navigation to various modules.
+- Displays inventory status and warnings for nearing capacity.
+# Imports Module
+- Add import records with details like supplier ID, supplier name, quantity, and price per unit.
+-	Automatically calculates total cost.
+-	Prevents imports that exceed inventory capacity.
+# Exports Module
+- Add export records with details like exporter ID, exporter name, quantity, and price per unit.
+-	Automatically calculates total cost.
+# Inventory Viewer
+-	View and analyze inventory data in real time.
+-	Provides a breakdown of imports and exports.
+ # Inventory Warnings
+-	Alerts when the inventory exceeds 80% of maximum capacity.
+-	Prevents over-importing when inventory reaches full capacity.
