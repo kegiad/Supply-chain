@@ -48,10 +48,27 @@ class ExportPage(tk.Tk):
         try:
             quantity = int(quantity)
             price = float(price)
+
+            if quantity <= 0 or price <= 0:
+                messagebox.showerror("Input Error", "Quantity and Price must be positive numbers.")
+                return
+
+            # Check inventory availability
+            current_inventory = self.get_current_inventory()
+            if quantity > current_inventory:
+                messagebox.showerror(
+                    "Insufficient Inventory",
+                    "There is not enough pepper in the inventory to export this much."
+                )
+                return
+
+            # Calculate total revenue
             total_revenue = quantity * price
 
+            # Add to database
             conn = sqlite3.connect('inventory.db')
             cursor = conn.cursor()
+
             cursor.execute("""
                 INSERT INTO exports1 (exporter_id, exporter_name, date, quantity, price_per_unit, total_revenue)
                 VALUES (?, ?, date('now'), ?, ?, ?)
@@ -60,13 +77,39 @@ class ExportPage(tk.Tk):
             conn.commit()
             conn.close()
 
-            messagebox.showinfo("Success", "Export added successfully!")
+            messagebox.showinfo("Success", f"Successfully exported {quantity} kg!")
             self.clear_fields()
 
         except ValueError:
-            messagebox.showerror("Input Error", "Quantity and Price must be numbers.")
+            messagebox.showerror("Input Error", "Quantity and Price must be valid numbers.")
+
+        except sqlite3.Error as e:
+            messagebox.showerror("Database Error", f"An error occurred: {e}")
+
+    def get_current_inventory(self):
+        """Fetch the current inventory level from the database."""
+        conn = sqlite3.connect('inventory.db')
+        cursor = conn.cursor()
+
+        try:
+            # Calculate total imports and exports
+            cursor.execute("SELECT SUM(quantity) FROM imports1")
+            total_imports = cursor.fetchone()[0] or 0
+
+            cursor.execute("SELECT SUM(quantity) FROM exports1")
+            total_exports = cursor.fetchone()[0] or 0
+
+            return total_imports - total_exports
+
+        except sqlite3.Error as e:
+            messagebox.showerror("Database Error", f"An error occurred while fetching inventory: {e}")
+            return 0
+
+        finally:
+            conn.close()
 
     def clear_fields(self):
+        """Clear all input fields."""
         self.exporter_id_entry.delete(0, tk.END)
         self.exporter_name_entry.delete(0, tk.END)
         self.quantity_entry.delete(0, tk.END)
@@ -76,6 +119,7 @@ class ExportPage(tk.Tk):
         """Close the current window and return to the home screen."""
         self.destroy()  # Close the export window
         subprocess.Popen(["python", "homepage.py"])  # Open the homepage
+
 
 if __name__ == "__main__":
     app = ExportPage()

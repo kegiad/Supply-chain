@@ -9,6 +9,9 @@ class ImportPage(tk.Tk):
         self.title("Add Imports")
         self.geometry("400x400")
 
+        # Constants
+        self.MAX_CAPACITY = 10000  # Maximum storage capacity in kg
+
         # Supplier ID
         tk.Label(self, text="Supplier ID:").pack()
         self.supplier_id_entry = tk.Entry(self)
@@ -32,7 +35,7 @@ class ImportPage(tk.Tk):
         # Add Import Button
         tk.Button(self, text="Add Import", command=self.add_import).pack(pady=10)
 
-        # 🔙 Back to Home Button
+        # Back to Home Button
         tk.Button(self, text="Back to Home", command=self.go_back_home).pack(pady=10)
 
     def add_import(self):
@@ -48,8 +51,25 @@ class ImportPage(tk.Tk):
         try:
             quantity = int(quantity)
             price = float(price)
+
+            if quantity <= 0 or price <= 0:
+                messagebox.showerror("Input Error", "Quantity and Price must be positive numbers.")
+                return
+
+            # Check inventory capacity
+            current_inventory = self.get_current_inventory()
+            if current_inventory + quantity > self.MAX_CAPACITY:
+                messagebox.showerror(
+                    "Capacity Exceeded",
+                    f"Adding {quantity} kg will exceed the maximum capacity of {self.MAX_CAPACITY} kg.\n"
+                    f"Current Inventory: {current_inventory} kg"
+                )
+                return
+
+            # Calculate total cost
             total_cost = quantity * price
 
+            # Add to database
             conn = sqlite3.connect('inventory.db')
             cursor = conn.cursor()
             cursor.execute("""
@@ -60,13 +80,39 @@ class ImportPage(tk.Tk):
             conn.commit()
             conn.close()
 
-            messagebox.showinfo("Success", "Import added successfully!")
+            messagebox.showinfo("Success", f"Successfully imported {quantity} kg!")
             self.clear_fields()
 
         except ValueError:
-            messagebox.showerror("Input Error", "Quantity and Price must be numbers.")
+            messagebox.showerror("Input Error", "Quantity and Price must be valid numbers.")
+
+        except sqlite3.Error as e:
+            messagebox.showerror("Database Error", f"An error occurred: {e}")
+
+    def get_current_inventory(self):
+        """Fetch the current inventory level from the database."""
+        conn = sqlite3.connect('inventory.db')
+        cursor = conn.cursor()
+
+        try:
+            # Calculate total imports and exports
+            cursor.execute("SELECT SUM(quantity) FROM imports1")
+            total_imports = cursor.fetchone()[0] or 0
+
+            cursor.execute("SELECT SUM(quantity) FROM exports1")
+            total_exports = cursor.fetchone()[0] or 0
+
+            return total_imports - total_exports
+
+        except sqlite3.Error as e:
+            messagebox.showerror("Database Error", f"An error occurred while fetching inventory: {e}")
+            return 0
+
+        finally:
+            conn.close()
 
     def clear_fields(self):
+        """Clear all input fields."""
         self.supplier_id_entry.delete(0, tk.END)
         self.supplier_name_entry.delete(0, tk.END)
         self.quantity_entry.delete(0, tk.END)
@@ -76,6 +122,7 @@ class ImportPage(tk.Tk):
         """Close the current window and return to the home screen."""
         self.destroy()  # Close the import window
         subprocess.Popen(["python", "homepage.py"])  # Open the homepage
+
 
 if __name__ == "__main__":
     app = ImportPage()

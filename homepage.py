@@ -73,7 +73,7 @@ class HomePage(tk.Tk):
         """Show the current inventory level in kg and warn if nearing capacity."""
         MAX_CAPACITY = 10000  # Maximum storage capacity in kg
         WARNING_THRESHOLD = 0.8  # 80% threshold
-        WARNING_LOW = 0.1
+        WARNING_LOW = 0.01
 
         conn = sqlite3.connect('inventory.db')
         cursor = conn.cursor()
